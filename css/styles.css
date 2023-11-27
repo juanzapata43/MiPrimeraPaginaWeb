@@ -1,0 +1,112 @@
+
+body{
+    background-color: rgb(252, 255, 220);
+    color: black;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+img {
+    border-radius: 7px;
+}
+
+button {
+    margin-top: 5px;
+    height: 22px;
+    border-radius: 5px;
+}
+
+.product.content {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 2px;
+    padding: 20px;
+  }
+  
+.product-card {
+    border: 2px solid black;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    width: 180px; 
+    margin-bottom: 20px; 
+  }
+  
+    
+  .product-card img {
+    width: 100%; 
+    height: auto; 
+  }
+  
+  .product-card .text {
+    padding: 10px;
+    text-align: center;
+  }
+  
+  h4.nombreProducto {
+    margin: 10px 0; 
+    color: #333; 
+  }
+  
+  .product-card p {
+    color: black; 
+    margin: 5px 0;
+  }
+  
+  button {
+    background-color: #00bbff;
+    color: black;
+    border: none;
+    padding: 20px;
+    width: 100%; 
+    cursor: pointer; 
+    border-radius: 8px; 
+    box-sizing: border-box; 
+  }
+  
+  button:hover {
+    background-color: #ff0000(0, 191, 255); 
+  }
+  
+  @media (max-width: 600px) {
+    .product.content {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
+  .btn {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: black;
+    background-color: #3e8e41;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 9px #9999994a;
+}
+
+.btn:hover {background-color: red}
+
+.btn:active {
+    background-color: #3e768e;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
