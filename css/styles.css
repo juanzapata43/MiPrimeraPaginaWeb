@@ -110,3 +110,24 @@ ul {
     list-style-type: none;
     padding: 0;
 }
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 4px;
+}
+
+.campo-requerido {
+  color: red;
+  font-size: 0.8em;
+  margin-left: 5px;
+}
+
+.campo-formulario {
+  width: 100%; 
+  text-align: center; 
+}
+
+.campo-requerido {
+  display: block; 
+}

@@ -76,3 +76,28 @@ div img {
   display: block; 
   margin: 10px auto; 
 }
+
+.error {
+  color: red;
+  font-size: 0.8em;
+  margin-top: 4px;
+}
+
+.campo-requerido {
+  color: red;
+  font-size: 0.8em;
+  margin-left: 5px;
+  display: block; 
+  text-align: center; 
+  width: 100%; 
+}
+
+.campo-formulario {
+  text-align: center; 
+}
+
+.campo-requerido {
+  display: block; 
+  margin: auto; 
+}
+
